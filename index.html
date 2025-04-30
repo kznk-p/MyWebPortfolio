@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">kznk.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Karl</span> Morales</h1>
+            <p>
+                I am currently an Information Technology Student at Cavite State University - Silang.
+                I enjoy creative writing and game designing. I also do write Game Reviews.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/witchcraft_interactive/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.facebook.com/kahzukii/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://backloggd.com/u/kuzuneko/"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/karl-morales-8600581a2/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="Projects/Karl CV.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>IT Student</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Creative Writer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Canva Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Game Designer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+ 
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/Karl Front.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                I love creative writing, creating stories and building-worlds that are 
+                full of lores that actually feels alive. I started writing short stories and full on series in 2018 in Webnovel website and I also worked for the otaku centered website "Anime Corner".
+            </p>
+            <p>
+                I also love games, because I believe that interactive worlds are one of the best and most beautiful form of story-telling.
+                My passion for gaming is the fuel that fires my passion to create those said worlds. In addition, I also do game reviews on the website "Backloggd" because I feel like sharing my game experience 
+                and adding additional informations to the game is part of why I love the gaming community, the developers gives you the story in front of you, while you interact with the said world. I just love
+                talking about how the game and story did for me throughout my whole walkthrough. Gaming, Story-Writing, and even Game Designing will always be a passion of mine that I will never quit upon.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Game Design</h3>
+                <p>Game Design is my top passion right now, building a compeling storyline and creating a fun and challenging gameplay is what my heart desires.
+                    I've made 4 games so far and 1 of them is a passion project of mine that is still in development, while the other 3 are school projects that i enjoyed making.
+                </p>
+                <a href="Projects/Game Dev.pdf" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Creative Writing</h3>
+                <p>I am a former article writer for an otaku centered website "Anime Corner" during 2019 - 2022. I've started writing stories such as one-shot stories, scripts for Visual Novel and drafts for full-on series that i would like to publish one day.
+                    I mostly write in the website "Webnovel". I also became the lead game writer for our previous Visual Novel Project during
+                    Senior High School.
+                </p>
+                <a href="https://animecorner.me/author/karl/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>PC Building</h3>
+                <p>I've started building PCs since I was 13 years old and ever since i've been upgrading and building
+                    PCs to other people. I also have self-studied alot of PC building lessons and the math behind them, overclocking them, and a lot of making the system run wild while the
+                    airflow and temperature is still good.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Images/Game Realms.PNG" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Game Realms</h4>
+                    <p>Game Realms is a game library application for Windows that I designed using Canva for my final project last semester.</p>
+                    <a href="Projects/Game Realms.pdf"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/Game Covers.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Game Custom Covers</h4>
+                    <p>I make Game Custom Covers using Canva for Steam as a hobby during my free time and it can also be printed as a poster.</p>
+                    <a href="https://www.steamgriddb.com/profile/76561198898658085/grids"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/Game Dev.PNG" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Game Development Journey</h4>
+                    <p>These are my two original passion project games that are currently in development.</p>
+                    <a href="Projects/Game Dev.pdf"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/Dodge.PNG" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dodge The Shapes 2D Educational Game</h4>
+                    <p>Dodge The Shapes is a 2D educational Game that me and my group did for Special Education and Kindergarten students, that wants to learn shapes, colors, and numbers by
+                        making it an interactive learning gameplay experience.</p>
+                    <a href="Projects/Dodge.pdf"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/Quizzes.PNG" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>My Quizzes and Exams</h4>
+                    <p>Here are all the Quizzes and Exams I took.</p>
+                    <a href="Quizzes/Quizzes.pdf"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/Gallery.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Gallery</h4>
+                    <p>Here are all the photos that I will forever cherish, this is my gallery.</p>
+                    <a href="Projects/Gallery.pdf"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="testimonial-container">
+        <h2 class="heading"><span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Alvin.PNG" alt="">
+                        <h3>Alvin</h3>
+                        <p>As a Digital Artist and an officer for Cavite State University's Art Organisation, I would like to
+                            say that Karl is one hell of a writer, I love the way he humanize most of his characters and all of the 
+                            world-building he has done was really a unique idea, some may be part of a genre but the way he stylize the world and story is incredible.
+                            I worked with him when i tried to make a short comic of a web-comic competition and all i can say is he is a good writer for his age.
+                        </p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Clark.PNG" alt="">
+                        <h3>Clark</h3>
+                        <p>I am also a fellow IT student and Karl did help me when it comes to PC building and the technical side of PC, i know IT students are more into 
+                            networks and softwares but Karl's knowledge and skills on hardware is really incredible and handy. He can not just be your IT guy but he can also 
+                            help you with hardware components and he is great at it!
+                        </p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Kevin.PNG" alt="">
+                        <h3>Kevin</h3>
+                        <p>Karl is fun, I really enjoy it when i'm with him. Going to such places but i'm still amazed how he can manage to do all of that while developing
+                            his passion project game or sometimes computer related stuff. He is my go to, when it comes to troubleshooting my gaming computer.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Micko.PNG" alt="">
+                        <h3>Micko</h3>
+                        <p>Me and Karl created a Visual Novel game during Senior High School as our final project and during those days he showed me how pretty good he is at directing.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Ron.PNG" alt="">
+                        <h3>Ron</h3>
+                        <p>When I was making a website for our family foodshop, Karl is the one who helped me do the database and he might not be the perfect or best developer but he is really
+                            persistent and doesn't give up on you, and its a very commendable attitude towards creating a project. </p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
