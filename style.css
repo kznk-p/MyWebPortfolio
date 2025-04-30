@@ -290,9 +290,10 @@ section {
 .home-img img {
     position: absolute;
     bottom: 0;
-    right: 40px;
+    right: 150px;
+    top: 100px;
     pointer-events: none;
-    max-width: 480px;
+    max-width: 800px;
     max-height: 100vh;
 }
 
