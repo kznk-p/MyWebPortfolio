@@ -287,15 +287,7 @@ section {
     border-left: 384px solid transparent;
 }
 
-.home-img img {
-    position: absolute;
-    bottom: 0;
-    right: 150px;
-    top: 100px;
-    pointer-events: none;
-    max-width: 800px;
-    max-height: 100vh;
-}
+
 
 span {
     color: var(--main-color);
